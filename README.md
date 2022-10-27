@@ -186,4 +186,21 @@
 
 ![30](images/30.png)
 
-5-13
+## Filters / Text Processors Commands
+
+![31](images/31.png)
+
+1. ### cut
+
+![32](images/32.png)
+
+2. ### awk
+
+![33](images/33.png)
+
+3. ### grep/egrep
+
+![34](images/34.png)
+
+4. ### sort/uniq
+5-17
