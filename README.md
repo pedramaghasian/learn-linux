@@ -203,4 +203,18 @@
 ![34](images/34.png)
 
 4. ### sort/uniq
-5-17
+
+![35](images/35.png)
+
+5. ### wc
+
+![36](images/36.png)
+
+## Compare Files (diff and cmp)
+
+![37](images/37.png)
+
+## Compress and uncompress (tar, gzip, gunzip)
+
+
+5-22
