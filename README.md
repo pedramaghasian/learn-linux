@@ -89,7 +89,9 @@
 
 `ls -ltrhi` i = inode
 
---------------------------
+
+
+# Linux System Administration-----------
 
 # Fundamentals
 
@@ -214,7 +216,42 @@
 
 ![37](images/37.png)
 
-## Compress and uncompress (tar, gzip, gunzip)
+## Compress and unCompress (tar, gzip, gunzip)
 
+**tar :** tar takes a bunch of files together and put it in one container, just like in windows you have bunch of files and zip them together, so tar file does not compress as much as the actual **gzip** command.
 
-5-22
+1. `tar cvf <fileName>.tar <path>`
+2. extract tar file : `tar xvf file.tar`
+
+**gzip :** is actually compress files
+
+3. compress tar file : `gzip file.tar`
+4. upCompress file : `gunzip file.tar.gz` or `gzip -d file.tar.gz`
+
+## Truncate File Size
+
+![38](images/38.png)
+
+ shrink or extend a file : `truncate -s <size bit> filename`
+
+ ## Combining and splitting files
+
+![39](images/39.png)
+
+## Linux vs. Windows Commands
+
+![40](images/40.png)
+
+----------------------------------------
+
+# Linux System Administration
+
+## Linux File Editor
+
+![41](images/41.png)
+
+**vi Editor**
+
+![42](images/42.png)
+
+6-1
