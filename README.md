@@ -254,4 +254,16 @@
 
 ![42](images/42.png)
 
-6-1
+**Exit from Vi** `shift + z + z`
+
+**Undo** `u`
+
+## Difference Between vi and vim Editor
+
+![43](images/43.png)
+![44](images/44.png)
+![45](images/45.png)
+
+## sed Command
+
+6-4
