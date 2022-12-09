@@ -266,4 +266,64 @@
 
 ## sed Command
 
+![46](images/46.png)
+
+1. **replace a word and just show the result**`sed 's/oedram/pedram/g' <fileName>`
+
+2. **replace a word and write to that file**`sed -i 's/oedram/pedram/g' <fileName>`
+
+3. **delete a word**`sed 's/pedram//g' <fileName>`
+
+4. **delete all the line which have specific word** `sed '/pedram/d' <fileName>`
+
+5. **remove empty lines from a file** `sed '/^$/d' <fileName>`
+
+6. **remove first line of the file** `sed '1d' <fileName>`
+
+7. **remove first two line of the file** `sed '1,2d' <fileName>`
+
+8. **replace tabs with space** `sed 's/\t/ /g' <fileName>`
+
+9.  **just show line 12 be bad** `sed -n 12,18p <fileName>`
+
+10. **make empty line after every line** `sed G <fileName>`
+    
+11. **replace every word except word in line number 8** `sed '8!s/oedram/pedram/g' <fileName>`
+    
+12. **in vim editor** `:%s/oedram/pedram/g`
+
+## User Account Management (useradd, groupadd, usermod, userdel, groupdel)
+
+![47](images/47.png)
+
+**create user**
+1. **create user** `useradd spiderman`
+2. **get use id**  `id spiderman`
+3. **assign a password** `passwd 123456`
+
+**modify user**
+1. **modify a user account** `usermod -G <groupName> <userName>`
+
+**delete user**
+1. **delete a use with homeDir** `userdel -r spiderman`
+2. **show all groups** `cat /etc/groups` or `grep spederman /etc/group`
+
+**create group**
+1. **create a group** `groupadd superheros`
+2. **show all groups** `cat /etc/groups`
+
+**delete group**
+1. **delete a group** `groupdel superheros`
+ 
+ **cat /etc/passwd**
+
+ **username: password : userId : groupId : description : homeDir : shell**
+
+ **cat /etc/group**
+
+ **groupName: groupPassword: groupId : users are part of this group**
+
+**cat /etc/shadow**
+ 
+**show information about users passwords**
 6-4
