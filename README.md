@@ -326,4 +326,13 @@
 **cat /etc/shadow**
  
 **show information about users passwords**
-6-4
+
+## Password Aging
+
+![48](images/48.png)
+
+![49](images/49.png)
+
+![48](images/48.png)
+
+6-7
