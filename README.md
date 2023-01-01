@@ -333,6 +333,42 @@
 
 ![49](images/49.png)
 
-![48](images/48.png)
 
-6-7
+## Switch Users and sudo Access
+
+![50](images/50.png)
+
+**grant root access to the user**
+
+- `/etc/sudoers` : and add the user
+
+```text
+root ALL=(ALL)    ALL
+pedram ALL=(ALL)    ALL
+```
+
+- or add the user to the sudoers group
+
+`usermod -aG wheel pedram`
+
+- then with your username you can run sudoers command : ` sudo pedram`
+
+## Monitor Users
+
+![51](images/51.png)
+
+1. `who` : information about how many people are logged in; when there is height load an the system and you want to see who are logged to the system.
+2. `last`: tell you all the details are the users that logged in.
+- `last | awk '{print $1}' | sort | uniq`
+3. `w` : give you little more information.
+4. `finger`
+5. `id` or `id username` : get information about yourself.
+
+## Talking To Users
+
+![52](images/52.png)
+
+1. `wall` + message + (ctrl + d) : broadcast a message to all users who loggedIn.
+2. `write username` : send message directly to the user.
+
+6-10
