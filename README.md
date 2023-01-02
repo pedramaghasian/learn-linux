@@ -371,4 +371,30 @@ pedram ALL=(ALL)    ALL
 1. `wall` + message + (ctrl + d) : broadcast a message to all users who loggedIn.
 2. `write username` : send message directly to the user.
 
-6-10
+## Linux Directory Service - Account Authentication
+
+**LDAP is a Protocol NOT Directory service**
+
+![53](images/53.png)
+
+## Difference between AD,LDAP,IDM,WinBIND,OpenLDAP
+
+![54](images/54.png)
+
+## System Utility Commands
+
+![55](images/55.png)
+
+**uptime** 
+
+![56](images/56.png)
+
+**which**
+
+`which <command>`  tell you about command
+
+**bc**
+
+`bc` command line calculator
+
+10-13
