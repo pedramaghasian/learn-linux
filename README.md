@@ -397,4 +397,62 @@ pedram ALL=(ALL)    ALL
 
 `bc` command line calculator
 
-6-13
+## Processes and Jobs
+
+
+**Application or service**
+
+it's like a program that's run into your computer, for example NTP - NFS - rsyslog - Apache.
+
+In Windows, daemons are called services, and behave exactly how daemons were previously described.
+They exist and operate independent of a user’s login session, and its status can be observed under the Services tab of Windows Task Manager.
+
+**Script**
+
+script is something that written in a file, and they can be execute.
+
+**Process**
+
+when you run an application it actually generate process with process id.
+
+An instance of a particular executable that is being executed:
+For example this could be an .exe program file or a Linux binary. A given application may have several processes running simultaneously.
+
+Typically, an executing program can exist in one of three states:
+Running: Active
+Sleeping: Inactive
+Zombie: A process that has completed execution, but still has an entry in the process table
+
+**Daemon**
+
+is constituently runs in the background.
+
+A process which runs in the background and is not interactive.
+They have no controlling terminal on their own from the user’s perspective from the desktop.
+They continue to exist and operate regardless of any user being logged into the server if the computer is on.
+
+**Threads**
+
+every process could have multiple threads.
+
+**Job**
+
+a job is something that is created by scheduler like a workorder to run those application and services.
+
+![57](images/57.png)
+
+## ps command
+
+![58](images/58.png)
+
+## top command
+
+![59](images/59.png)
+![60](images/60.png)
+
+## kill command
+
+![61](images/61.png)
+![62](images/62.png)
+
+6-17
