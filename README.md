@@ -455,4 +455,20 @@ a job is something that is created by scheduler like a workorder to run those ap
 ![61](images/61.png)
 ![62](images/62.png)
 
+## Crontab Command
+
+![63](images/63.png)
+
+## at command
+
+![64](images/64.png)
+![65](images/65.png)
+
+## Additional Cron Jobs
+
+![66](images/66.png)
+
 6-17
+
+gueast orderid cancelled
+host status canelled
