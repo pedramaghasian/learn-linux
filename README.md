@@ -468,7 +468,18 @@ a job is something that is created by scheduler like a workorder to run those ap
 
 ![66](images/66.png)
 
-6-17
+## Process Management
 
-gueast orderid cancelled
-host status canelled
+![67](images/67.png)
+
+## System Monitoring
+
+![68](images/68.png)
+
+`netstat -rnv`
+
+## Log Monitoring
+
+![69](images/69.png)
+
+6-24
