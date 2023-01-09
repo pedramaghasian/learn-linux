@@ -482,4 +482,43 @@ a job is something that is created by scheduler like a workorder to run those ap
 
 ![69](images/69.png)
 
-6-24
+## System Maintenance Commands 
+
+![70](images/70.png)
+
+## changing System Hostname
+
+![71](images/71.png)
+
+## finding System Information
+
+![72](images/72.png)
+
+`cat /etc/os-release`
+
+## System Architecture
+
+![73](images/73.png)
+
+## Terminal Control Keys
+
+![74](images/74.png)
+
+## Terminal Commands 
+
+![75](images/75.png)
+
+watch and save all terminal activity `script activity.lgo`
+
+for exit of `exit`
+
+## Recover Root Password
+
+![76](images/76.png)
+
+## SOS Report
+
+![77](images/77.png)
+
+
+6-32
