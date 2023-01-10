@@ -520,5 +520,11 @@ for exit of `exit`
 
 ![77](images/77.png)
 
+## Environment Variables
 
-6-32
+![78](images/78.png)
+
+![79](images/79.png)
+
+
+6-33
