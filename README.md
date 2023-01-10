@@ -90,9 +90,7 @@
 `ls -ltrhi` i = inode
 
 
-
-# Linux System Administration-----------
-
+------------------------------
 # Fundamentals
 
 ## Linux Command Syntax
@@ -525,6 +523,25 @@ for exit of `exit`
 ![78](images/78.png)
 
 ![79](images/79.png)
+
+## Special Permissions with setuid, setgid and sticky bit
+
+![80](images/80.png)
+
+![81](images/81.png)
+
+1. `which passwd`
+2. `ls - l /usr/bin/passwd`
+3. with user pedram run`passwd`
+4. go to another terminal and `ps -ef | grep passwd`
+5. you see this command run by root
+
+![83](images/83.png)
+![84](images/84.png)
+
+-------------------------------------------------
+
+# Shell Scripting
 
 
 6-33
