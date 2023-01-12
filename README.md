@@ -1,4 +1,8 @@
-# System Access and File system
+
+# Module-1 : Understanding Linux Concepts
+
+# Module-2 : Download and install
+# Module-3 : System Access and File system
 
 ## Command Prompt
 ![1](images/1.png)
@@ -91,7 +95,7 @@
 
 
 ------------------------------
-# Fundamentals
+# Module-4 : Fundamentals
 
 ## Linux Command Syntax
 
@@ -242,7 +246,7 @@
 
 ----------------------------------------
 
-# Linux System Administration
+# Module-5 : Linux System Administration
 
 ## Linux File Editor
 
@@ -541,7 +545,7 @@ for exit of `exit`
 
 -------------------------------------------------
 
-# Shell Scripting
+# Module-6 : Shell Scripting
 
 ## Linux Kernel
 
@@ -619,3 +623,38 @@ else
     echo "secrete.txt is not exits"
 fi
 ```
+## For Loop Scripts
+
+![91](images/91.png)
+
+```bash
+#!/bin/bash
+
+for i in 1 2 3 4 5
+do
+    echo $i
+done
+```
+
+## do-while Scripts
+
+![92](images/92.png)
+
+```bash
+#!/bin/bash
+
+c = 1
+while [ $c -le 5]
+do
+    echo welcome $c 
+    ((c++))
+done
+```
+
+## Case Statement Scripts
+
+![93](images/93.png)
+
+## check other servers connectivity
+
+6-12
