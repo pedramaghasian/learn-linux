@@ -543,5 +543,79 @@ for exit of `exit`
 
 # Shell Scripting
 
+## Linux Kernel
 
-6-33
+![85](images/85.png)
+
+## Introduction to Shell
+
+![86](images/86.png)
+
+## Types of Linux shells
+
+![87](images/87.png)
+
+## Shell Scripting
+
+![88](images/88.png)
+
+## Basic scripts
+
+```bash
+#!/bin/bash
+
+# commands 
+pwd
+echo
+hostname
+echo
+ls -ltrh
+
+# define variables
+fullName = 'pedram aghasian'
+echo my name is $fullName
+```
+## Input/Output of Script
+
+![89](images/89.png)
+
+```bash
+#!/bin/bash
+
+a = `hostname`
+echo Hell, my hostname is $a
+echo
+echo What is your name ?
+read NAME
+echo
+echo Hello $NAME
+echo
+```
+
+## if-then Scripts
+
+![90](images/90.png)
+
+```bash
+#!/bin/bash
+
+count = 100
+if [ $count -eq 100 ]
+then
+    echo Count is 100
+else
+    echo Count is not 100
+fi
+```
+
+```bash
+#!/bin/bash
+
+clear
+if [ -e /home/pedram/secrete.txt ]
+then
+    echo "file secrete.txt is exist"
+else
+    echo "secrete.txt is not exits"
+fi
+```
