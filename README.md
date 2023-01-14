@@ -657,4 +657,13 @@ done
 
 ## check other servers connectivity
 
-6-12
+
+## Aliases
+
+![94](images/94.png)
+
+`alias` show all aliases
+
+`unalias <aliasName>` delete an alias
+
+6-15
