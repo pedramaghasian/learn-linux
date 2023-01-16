@@ -666,4 +666,28 @@ done
 
 `unalias <aliasName>` delete an alias
 
-6-15
+## Shell History
+
+1. show history `history`
+2. run commands witch in history  `!<command number> !405`
+3. history location `cat /home/pedram/.bash_history`
+
+---------------------------------------------
+
+# Module-7 : Networking, Services, System Updates
+
+## Network Components
+
+![95](images/95.png)
+
+## Network files and Commands
+
+![96](images/96.png)
+ 
+ `netstat -rnv`
+
+ `tcpdump -i <interface>`
+
+ ## NIC Information
+
+ 7-5
