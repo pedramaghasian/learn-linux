@@ -690,4 +690,20 @@ done
 
  ## NIC Information
 
- 7-5
+![97](images/97.png)
+
+## NIC Bonding
+
+![98](images/98.png)
+
+![99](images/99.png)
+
+## New Network Utilities
+
+![100](images/100.png)
+
+![101](images/101.png)
+
+![102](images/102.png)
+
+ 7-8
