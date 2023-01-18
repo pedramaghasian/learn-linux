@@ -706,4 +706,18 @@ done
 
 ![102](images/102.png)
 
- 7-8
+## Download Files or Apps
+
+![103](images/103.png)
+ 
+## curl and ping commands
+
+![104](images/104.png)
+
+what if server is up but page is down ?? in this case you should use `curl` command.
+
+you can use `curl -O <url>` instead of `wget` for downloading.
+
+## FTP - File Transfer Protocol
+
+ 7-10
