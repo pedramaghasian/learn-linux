@@ -720,4 +720,53 @@ you can use `curl -O <url>` instead of `wget` for downloading.
 
 ## FTP - File Transfer Protocol
 
- 7-10
+![105](images/105.png)
+
+![106](images/106.png)
+ 
+ **Configure FTP**
+
+![107](images/107.png)
+
+**on Ubuntu**
+
+1. `sudo apt install vsftpd`
+2.  `apt list | grep vsftpd`
+3.  `sudo service vsftpd status`
+4.  `cp /etc/vsftpd.conf /etc/vsrftpd.conf.orig`
+5.  `sudo nano /etc/vsftpd.conf`
+6.  
+```text
+listen=NO
+ listen ipv6=YES 
+anonymous_enable=NO
+ local_enable=YES 
+write_enable=YES
+ local_umask=022
+ dirmessage_enable=YES 
+use_localtime=YES xferlog_enable=YES
+ connect_from_port_20=YES
+ chroot_local_user=YES 
+secure_chroot_dir=/var/run/vsftpd/empty 
+pam_service_name=vsftpd 
+rsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+ rsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+ ssl_enable=NO  
+pasv_enable=Yes 
+pasv_min_port=10000 
+pasv_max_port=10100 
+allow_writeable_chroot=YES
+```
+7. `systemctl enable vsftpd`
+
+**FTP Client Configure**
+
+![108](images/108.png)
+
+**if see this error follow as blew**
+
+500 Illegal PORT command.
+
+go to passive mode in ftp> `pass`
+
+7-11
