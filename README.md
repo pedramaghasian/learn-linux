@@ -769,4 +769,35 @@ allow_writeable_chroot=YES
 
 go to passive mode in ftp> `pass`
 
-7-11
+## SCP - Secure Copy Protocol
+
+**SCP use SSH protocol**
+
+![109](images/109.png)
+
+![110](images/110.png)
+
+**configure SCP**
+
+![111](images/111.png)
+
+## rsync - Remote Synchronization
+
+**rsync use SSH protocol**
+
+![112](images/112.png)
+![113](images/113.png)
+
+**configure rsync**
+
+![114](images/114.png)
+
+## System Updates and Repository
+
+![115](images/115.png)
+
+## System Upgrade/Patch Management
+
+![116](images/116.png)
+
+## Create Local Repository from cd/dvd
