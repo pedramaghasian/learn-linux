@@ -801,3 +801,5 @@ go to passive mode in ftp> `pass`
 ![116](images/116.png)
 
 ## Create Local Repository from cd/dvd
+
+7-15
