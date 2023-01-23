@@ -802,4 +802,17 @@ go to passive mode in ftp> `pass`
 
 ## Create Local Repository from cd/dvd
 
-7-15
+![117](images/117.png)
+
+1. make a directory
+2. copy all your content to that directory
+3. go to your local repo directory and run `dpkg-scanpackages . /dev/null > Release`
+4. give you current directory size `du -sh .`
+5. give you system space `df -h`
+9. `vim /etc/apt/source.list`
+10. add the blew line to that file
+```text 
+ deb [trusted=yes] file:///opt/debs ./
+ ```
+
+7-16
