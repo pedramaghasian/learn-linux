@@ -815,4 +815,80 @@ go to passive mode in ftp> `pass`
  deb [trusted=yes] file:///opt/debs ./
  ```
 
-7-16
+ ## Advance Package Management
+
+![118](images/118.png)
+
+`dpkg` and `apt` are both package management tools for Ubuntu and other Debian-based Linux distributions.
+
+`dpkg` (Debian Package Manager) is the low-level tool for installing, removing, and managing Debian packages. It is used to install, remove and manage Debian packages. It works on the package files themselves, and does not have the advanced dependency resolution capabilities of apt.
+
+`apt` (Advanced Packaging Tool) is a higher-level tool that is built on top of `dpkg`. It provides a more user-friendly interface for managing packages, and also includes advanced features such as dependency resolution, package searching, and automatic updates. It is the recommended tool for managing packages on Ubuntu and other Debian-based Linux distributions.
+
+In short, `dpkg` is the underlying package management system for Ubuntu and apt is a user-friendly front-end for managing packages on Ubuntu.
+
+
+1. **check if a package is installed** 
+
+`dpkg -l | grep package-name`
+
+`apt list --installed package-name` 
+
+2. **remove package**
+
+`sudo apt remove package-name`
+
+`sudo apt autoremove`
+
+`sudo dpkg -r package-name` for deleting packages which installed with `dpkg -i`
+
+3. **check dependency of a package**
+
+`apt-cache showpkg package-name`
+
+`apt show package-name`
+
+4. **install package**
+
+`sudo apt install package-name`
+
+`sudo dpkg -i package-name.deb`
+
+install dependency with this `sudo apt-get install -f` command and then run `sudo dpkg -i .deb`
+
+5. **show configuration of package which installed**
+
+`dpkg -L package-name`
+
+`dpkg-query -L package-name`
+
+`sudo find / -user root -group root -name "*package-name*"`
+
+6. **which package this command belongs to**
+
+`dpkg -S /usr/bin/pwd`
+
+7. **search about a package on the repository**
+
+`apt-cache search package-name`
+
+`apt-cache policy package-name`
+
+
+## Rollback Updates and Patches
+
+![119](images/119.png)
+
+In short, apt update updates the package list, apt upgrade upgrades the packages.
+It is a good practice to run apt update regularly to keep your package list up to date and apt upgrade periodically to keep your system up to date.
+
+`sudo apt-get install example=1.0`
+
+**show apt history**
+
+`apt history`
+
+`cat /var/log/apt/history.log`
+
+
+7-18
