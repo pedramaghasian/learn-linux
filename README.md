@@ -890,5 +890,13 @@ It is a good practice to run apt update regularly to keep your package list up t
 
 `cat /var/log/apt/history.log`
 
+## SSH and Telnet
+
+![120](images/120.png)
+![121](images/121.png)
+
+## DNS = Domain Name System,
+
+![122](images/122.png)
 
 7-18
