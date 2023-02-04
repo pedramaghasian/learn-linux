@@ -899,4 +899,35 @@ It is a good practice to run apt update regularly to keep your package list up t
 
 ![122](images/122.png)
 
-7-18
+## Hostname / IP lookup
+
+1. `nslookup www.google.com`
+   
+2. `dig www.google.com`
+
+## NTP (Network Time Protocol)
+
+![123](images/123.png)
+
+**NTP prot 123**
+
+## chronyd (replace to ntpd)
+
+In conclusion, while ntpd is a more traditional and comprehensive NTP implementation, chronyd provides a faster and more efficient solution for NTP synchronization, making it a better choice for resource-constrained systems and systems that require fast and efficient NTP synchronization.
+
+![124](images/124.png)
+
+## timedatectl
+
+![125](images/125.png)
+![126](images/126.png)
+
+## Send Mail
+
+**you should always got to /etc/mail/sendmail.mc and make your change into that file and then compile that. go not go straight to /etc/mail/sendmail.cf**
+
+![127](images/127.png)
+
+## Web Server (https)
+
+7-25
