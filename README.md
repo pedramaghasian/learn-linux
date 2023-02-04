@@ -890,13 +890,10 @@ It is a good practice to run apt update regularly to keep your package list up t
 
 `cat /var/log/apt/history.log`
 
-## SSH and Telnet
+## Hostname / IP lookup
 
-![120](images/120.png)
-![121](images/121.png)
+1. `nslookup www.google.com`
+   
+2. `dig www.google.com`
 
-## DNS = Domain Name System,
-
-![122](images/122.png)
-
-7-18
+## NTP (Network Time Protocol)
