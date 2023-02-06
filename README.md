@@ -928,6 +928,50 @@ In conclusion, while ntpd is a more traditional and comprehensive NTP implementa
 
 ![127](images/127.png)
 
-## Web Server (https)
+## Web Server (httpd)
 
-7-25
+## Central Logger (rsyslog)
+
+![128](images/128.png)
+
+## Linux OS Hardening
+
+![129](images/129.png)
+
+**user account**
+1. see all users :  `cat /etc/passwd`
+2. change user password polices with `chage` or `chage -l <username>`
+3. or change system password polices for all users `/etc/login.defs`
+4. learn about `/etc/pam.d`
+
+
+**Remove un-wanted packages**
+
+1. list all packages `apt list --installed | wc -l`
+
+**Stop un-used Services**
+
+2. show all services `systemctl -a`
+
+**Check on Listening Ports**
+
+3. show all open port `netstat - tunlp`
+
+**Secure SSH Configuration**
+
+4. go to `/etc/ssh` and secure ssh protocol
+
+**Enable Firewall (iptables/firewalld)**
+
+1. firewall gui `firewall-config`
+2. firewall cli `firewall-cmd --help`
+
+1. `iptables --help`
+
+**Enable SELinux**
+
+**Change Listening Port Number**
+
+**Keep your system update**
+
+7-28
