@@ -846,6 +846,8 @@ In short, `dpkg` is the underlying package management system for Ubuntu and apt 
 
 `apt-cache showpkg package-name`
 
+`apt-cache search package-name`
+
 `apt show package-name`
 
 4. **install package**
@@ -974,4 +976,19 @@ In conclusion, while ntpd is a more traditional and comprehensive NTP implementa
 
 **Keep your system update**
 
-7-28
+## OpenLDAP Installation
+
+![130](images/130.png)
+
+## Trace Network Traffic (traceroute)
+
+get your gateway `netstat -rnv`
+
+![131](images/131.png)
+
+## How to Open an Image File
+
+![132](images/132.png)
+
+
+7-30 3:57
