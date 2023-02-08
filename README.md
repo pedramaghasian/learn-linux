@@ -990,5 +990,10 @@ get your gateway `netstat -rnv`
 
 ![132](images/132.png)
 
+`apt install imageMagick`
+
+`display <imageName>`
+
+
 
 7-30 3:57
