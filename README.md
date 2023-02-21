@@ -994,6 +994,18 @@ get your gateway `netstat -rnv`
 
 `display <imageName>`
 
+## Configure and Secure SSH
+ 7-31
 
+## Access Remote Server without Password
+ 7-32
 
-7-30 3:57
+## Cockpit
+
+![133](images/133.png)
+
+![134](images/134.png)
+
+## FireWall
+
+7-34
