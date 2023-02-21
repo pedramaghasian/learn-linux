@@ -1008,4 +1008,28 @@ get your gateway `netstat -rnv`
 
 ## FireWall
 
-7-34
+![135](images/135.png)
+
+![136](images/136.png)
+
+ufw, iptables, and firewalld are all firewall configuration tools that are commonly used on Linux systems. Here are some differences between them:
+
+ufw (Uncomplicated Firewall): This is the default firewall configuration tool for Ubuntu. It is designed to be easy to use and is based on iptables. It uses a simple command-line interface and is designed to provide a basic level of protection. It can be used to set up rules that allow or block incoming and outgoing traffic.
+
+iptables: This is a traditional Linux firewall tool that has been around for a long time. It uses a more complex command-line interface and provides more granular control over the firewall configuration. It can be used to set up rules that allow or block incoming and outgoing traffic, as well as to perform more advanced network address translation (NAT) and packet filtering.
+
+firewalld: This is the default firewall configuration tool for many newer Linux distributions, such as Fedora, RHEL, and CentOS. It is designed to be more dynamic and flexible than ufw and iptables. It uses a command-line interface as well as a graphical interface to allow for easy configuration of firewall rules. It can be used to set up rules that allow or block incoming and outgoing traffic, as well as to perform more advanced features such as port forwarding, masquerading, and network zones.
+
+In summary, while all of these tools can be used to configure a firewall on a Linux system, they differ in their complexity, ease of use, and level of flexibility. ufw is the simplest and easiest to use, while firewalld is the most flexible and dynamic. iptables is the most powerful and provides the most granular control, but it has a steeper learning curve.
+
+**check which firewall is installed**
+
+1. sudo ufw status
+2. sudo iptables -L
+3. sudo firewall-cmd --state
+
+### iptables
+
+![137](images/137.png)
+
+7-34 8:00
