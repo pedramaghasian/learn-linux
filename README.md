@@ -1082,4 +1082,32 @@ So to sum up, in iptables, tables are like boxes that hold different sets of rul
 
 ## Run Containers
 
-7-36
+![154](images/154.png)
+
+![155](images/155.png)
+
+![156](images/156.png)
+
+### Podman
+
+![157](images/157.png)
+
+![158](images/158.png)
+
+![159](images/159.png)
+
+![160](images/160.png)
+
+![161](images/161.png)
+
+## Kickstart (Automate Linux Installation)
+
+![162](images/162.png)
+
+![163](images/163.png)
+
+![164](images/164.png)
+
+![165](images/165.png)
+
+7-37 9:11
